@@ -1,0 +1,29 @@
+{
+  "name": "bof-typescript",
+  "version": "1.0.0",
+  "description": "Basic TypeScript assignments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index.ts && tsc ./src/index.ts && node ./src/index.js",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.0",
+    "nodemon": "^2.0.16",
+    "ts-node": "^10.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arealibusadrealiora/bof-typescript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arealibusadrealiora/bof-typescript/issues"
+  },
+  "homepage": "https://github.com/arealibusadrealiora/bof-typescript#readme",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
